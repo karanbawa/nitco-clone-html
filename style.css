@@ -399,7 +399,7 @@
     a:hover{color:#000000;text-decoration:none;}
     a:focus{color:#000000;text-decoration:none;}
     .container-nt{width:100%!important;max-width:1250px;}
-    .primary-navbar{line-height:1.2;height:30px;background-color:#3a3a3a;font-family:'Montserrat', sans-serif;font-size:12px;letter-spacing:0.4px;color:#ffffff;position:sticky;top:0;z-index:3;}
+    .primary-navbar{line-height:1.2;height:30px;background-color:#154587;font-family:'Montserrat', sans-serif;font-size:12px;letter-spacing:0.4px;color:#ffffff;position:sticky;top:0;z-index:3;}
     @media screen and (max-width: 767px){
     .primary-navbar{display:none;}
     }
