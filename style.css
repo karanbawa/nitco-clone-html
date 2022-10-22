@@ -860,7 +860,7 @@
 @media screen and (max-width: 1024px){
 .landing-banner .banner-image{height:400px;}
 }
-.landing-banner .banner-image .landing-collection{height:360px;position:absolute;top:7%;left:20%;}
+.landing-banner .banner-image .landing-collection{position:absolute;top:7%;left:20%;}
 @media screen and (max-width: 1024px){
 .landing-banner .banner-image .landing-collection{width:316px;height:301px;top:10%;left:10%;}
 }
@@ -873,7 +873,7 @@
 @media screen and (max-width: 767px){
 .spaces2-banner .banner-image{height:150px;}
 }
-.spaces2-banner .banner-image .spaces2-text-slider{position:relative;margin:176px 0 0;top:0;left:0;z-index:2;}
+.spaces2-banner .banner-image .spaces2-text-slider{position:relative;top:0;left:0;z-index:2;}
 @media screen and (max-width: 1024px){
 .spaces2-banner .banner-image .spaces2-text-slider{margin-top:24px;width:440px;height:360px;}
 }
