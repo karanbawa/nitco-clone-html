@@ -257,6 +257,110 @@
     @media (max-width:767px){
     .hidden-xs{display:none!important;}
     }
+    .bodyValue {
+        color: #555;
+        font-family: Lato, sans-serif;
+        font-size: 1rem;
+        line-height: 1.5;
+        margin: 0;
+        text-align: left;
+      }
+      .row-wrap {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .fadeIn {
+        -webkit-animation-name: fadeIn;
+        animation-name: fadeIn;
+      }
+      .text-center {
+        text-align: center !important;
+      }
+      .text-uppercase {
+        text-transform: uppercase !important;
+      }
+      .mb-0 {
+        margin-bottom: 0 !important;
+      }
+      .entry-content .intro {
+        margin-bottom: 32px;
+      }
+      .entry-content .intro p {
+        font-size: 16px;
+        line-height: 28px;
+        margin-bottom: 28px;
+        text-align: justify;
+      }
+      .container-fluid {
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        width: 100%;
+      }
+      .container-fluid {
+        padding-left: 30px;
+        padding-right: 30px;
+      }
+      @media (max-width: 767.98px) {
+        .container,
+        .container-fluid {
+          padding-left: 30px;
+          padding-right: 30px;
+        }
+      }
+      .px-4 {
+        padding-right: 20px !important;
+      }
+      .pl-4,
+      .px-4 {
+        padding-left: 20px !important;
+      }
+      .px-lg-8 {
+        padding-right: 40px !important;
+      }
+      .px-lg-8 {
+        padding-left: 40px !important;
+      }
+      .pt-4,
+      .py-4 {
+        padding-top: 20px !important;
+      }
+      .pb-4,
+      .py-4 {
+        padding-bottom: 20px !important;
+      }
+      .py-lg-6 {
+        padding-top: 30px !important;
+      }
+      .py-lg-6 {
+        padding-bottom: 30px !important;
+      }
+      img {
+        height: auto;
+        max-width: 100%;
+      }
+      body,
+  a,
+  .linkColorChange:active,
+  .linkColorChange:focus {
+    color: #6f6f6f;
+    text-decoration: none;
+  }
+  .linkColorChange:active,
+  .linkColorChange:hover {
+    color: #ff214f;
+    text-decoration: none;
+  }
+  .entry-content .intro {
+    margin-bottom: 32px;
+  }
+  .entry-content .intro p {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 28px;
+    text-align: justify;
+  }
     }
     /*! CSS Used from: https://nitco.in/css/swiper.min.css?v=BfJ2_2ECVilqwy_4WgCCQC92XJ4mQmFEaOE-m2QCVAg ; media=all */
     @media all{
