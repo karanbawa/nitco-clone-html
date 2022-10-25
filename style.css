@@ -276,6 +276,11 @@
       .text-center {
         text-align: center !important;
       }
+      @media (max-width: 600px) {
+        .find-store-center {
+          text-align: center;
+        }
+      }
       .text-uppercase {
         text-transform: uppercase !important;
       }
@@ -484,6 +489,10 @@
     h5{font-size:14px;}
     }
     .btn{border-radius:0;}
+    @media only screen and (max-width: 600px){
+      .desk-primary-btn-black{height:45px;padding:7px 16px;}
+      .desk-primary-btn-white{height:45px;padding:7px 16px;line-height:29px;margin-top:0px;}
+      }
     .desk-primary-btn-white,.desk-primary-btn-black{font-family:'Open Sans', sans-serif;font-size:18px;font-weight:600;letter-spacing:1px;text-align:left;text-transform:uppercase;}
     .desk-primary-btn-white{width:330px;height:50px;border:1px solid #000000;color:#000000;padding:11px 16px;margin:20px 0;display:block;}
     .desk-primary-btn-white:hover{border-color:rgba(0, 0, 0, 0.76);}
@@ -662,7 +671,7 @@
     .collection-wrapper .row{display:flex;flex-wrap:wrap;}
     .collection-wrapper .nt-content{margin-bottom:40px;}
     @media screen and (max-width: 1024px){
-    .collection-wrapper .nt-content{width:100%;margin-bottom:48px;}
+    .collection-wrapper .nt-content{margin-bottom:48px;}
     }
     @media screen and (max-width: 767px){
     .collection-wrapper .nt-content{margin-bottom:24px;}
