@@ -13,6 +13,7 @@ toggleSwitch.addEventListener('change', switchTheme, false);
 
 
 const name = document.getElementById('name');
+const phone = document.getElementById('phone');
 const email = document.getElementById('email');
 const message = document.getElementById('message');
 const contactForm = document.getElementById('contact-form');
@@ -25,6 +26,11 @@ const validate = (e) => {
  
   if (name.value.length < 3) {
     errorElement.innerHTML = 'Your name should be at least 3 characters long.';
+    return false;
+  }
+
+  if (phone.value.length < 10 || phone.value.length > 10) {
+    errorElement.innerHTML = `Your Phone Number should be at least 10 digit long.`;
     return false;
   } 
   
