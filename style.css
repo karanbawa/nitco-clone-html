@@ -648,6 +648,7 @@
     @media screen and (max-width: 767px){
     .secondary_menu .header-list ul li .header-design span{vertical-align:unset;}
     }
+    
     .secondary_menu .secondary-header{padding:5px 14px 0px 14px;}
     .secondary_menu .secondary-header ul{list-style:none;display:-webkit-flex;-webkit-flex-flow:row wrap;-moz-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap; gap: 3%;}
     .secondary_menu .secondary-header ul li ul{display:none;list-style:none;}
@@ -663,6 +664,42 @@
     .secondary_menu .secondary-header ul .divmenu a:hover{color:#000000;border-bottom:2px solid #000000;padding-bottom:5px;}
     .secondary_menu .secondary-header ul .divmenu a:focus{color:#000000;border-bottom:2px solid #000000;padding-bottom:5px;}
     .secondary_menu .secondary-header ul li:hover div{display:block;}
+    .w-scrollit-badge {
+      position: fixed !important;
+      display: inline-block !important;
+      visibility: visible !important;
+      z-index: 2147483647 !important;
+      top: auto !important;
+      right: 12px !important;
+      bottom: 12px !important;
+      left: auto !important;
+      color: #aaadb0 !important;
+      background-color: #fff !important;
+      border-radius: 3px !important;
+      padding: 6px 8px 6px 6px !important;
+      font-size: 12px !important;
+      opacity: 1 !important;
+      line-height: 14px !important;
+      text-decoration: none !important;
+      transform: none !important;
+      margin: 0 !important;
+      width: auto !important;
+      height: auto !important;
+      overflow: visible !important;
+      white-space: nowrap;
+      box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.1);
+      cursor: pointer;
+    }
+    .w-scrollit-badge > img {
+      width: 36px;
+    }
+    .w-scrollit-badge > img:hover {
+      width: 46px;
+    }
+    .w-scrollit-badge:hover{
+      /* box-shadow: rgba(0, 0, 0, 0.17) 0px -23px 25px 0px inset, rgba(0, 0, 0, 0.15) 0px -36px 30px 0px inset, rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px, rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px, rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px; */
+      box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    }
     @media screen and (max-width: 767px){
     .nitco-menu-list ul{text-align:center;padding:40px;width:100%;}
     }
