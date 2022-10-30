@@ -720,6 +720,9 @@
         margin-right: auto;
       }
     }
+    .footerAlign {
+      display:flex; justify-content: space-between; align-items: center;
+    }
     .swiper {
       width: 100%;
       height: auto;
