@@ -43,6 +43,9 @@
     .margin-top-15 {
       margin-top: 30px;
     }
+    .margin-bottom-15 {
+      margin-top: 30px;
+    }
     ul{margin-top:0;margin-bottom:10px;}
     ul ul{margin-bottom:0;}
     .container{margin-right:auto;margin-left:auto;padding-left:15px;padding-right:15px;}
@@ -550,6 +553,16 @@
     .secondary_menu .header-menu .searchbox{clear:both;width:100%;margin:0 auto;float:none;}
     .secondary_menu .header-menu .logo{width:35%;}
     }
+    .store-design-blog .heading-content{width:100%;};
+    .store-design-blog .stores-state{padding:0 15px;}
+    @media screen and (max-width: 767px){
+    .store-design-blog .stores-state .inside_store_wrapper{width:100%;}
+    }
+    @media screen and (max-width: 1024px){
+    .store-design-blog .stores-state .inside_store_wrapper{width:100%;}
+    }
+    .store-design-blog .stores-state .state-name{background:#ffffff;margin-bottom:32px;padding-left:8px;}
+    
     .secondary_menu .header-menu .searchbox .search_icon{float:left;padding:0;margin:2px 4px 0 5px;font-size:16px;font-weight:300;}
     .secondary_menu .header-menu .searchbox .input-group{width:100%;}
     .secondary_menu .header-menu .searchbox .input-group > .form-control{width:92%;padding-left:9px;border-color:transparent;box-shadow:unset;height:auto;background:transparent;}
@@ -576,7 +589,7 @@
     .nt-tab .tab-content .tile-properties{display:block;}
     }
     .footer-section{background:#ffffff;}
-    .footer-section .back-to-top-wrapper{cursor:pointer;height:40px;background:#f5f5f5;text-align:center;padding:6px 0;font-size:14px;font-weight:normal;color:#232323;}
+    .footer-section .back-to-top-wrapper{cursor:pointer;height:40px;background:rgb(212, 161, 30);text-align:center;padding:6px 0;font-size:14px;font-weight:normal;color:#232323;}
     .footer-section .back-to-top-wrapper a{color:#232323;}
     .footer-section .footer-col-wrapper{margin:0 auto;float:none;}
     .footer-section .footer-social-wrapper{margin-top:24px;font-size:14px;font-weight:normal;color:#616161;}
@@ -1095,6 +1108,17 @@
     }
     
     input, textarea {
+      color: var(--primary-color);
+      font-weight: 500;
+      background: var(--bg-color);
+      border: none;
+      border-bottom: 1px solid var(--secondary-color);
+      padding: 0.5rem 0;
+      margin-bottom: 1rem;
+      outline: none;
+    }
+
+    .name {
       color: var(--primary-color);
       font-weight: 500;
       background: var(--bg-color);
