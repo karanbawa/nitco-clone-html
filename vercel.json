@@ -1,3 +1,11 @@
 {
-  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+  "rewrites": [
+    { "source": "/", "destination": "/index.html" },
+    { "source": "/aboutus", "destination": "/aboutus.html" },
+    { "source": "/product", "destination": "/product.html" },
+    { "source": "/catalogue", "destination": "/catalogue.html" },
+    { "source": "/contactus", "destination": "/contactus.html" },
+    { "source": "/tiles-collection", "destination": "/tiles-collection.html" },
+    { "source": "/tiles-collection", "destination": "/tiles-collection.html" }
+  ]
 }
