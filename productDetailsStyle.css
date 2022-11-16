@@ -1909,7 +1909,7 @@
     text-decoration: none;
   }
   .secondary_menu {
-    min-height: 58px;
+    min-height: 70px;
     background-color: #ffffff;
   }
   .secondary_menu .container {
@@ -3011,7 +3011,6 @@
     }
   }
 }
-/*! CSS Used from: https://www.nitco.in/css/custom.css?v=Dc0L87P-dA7zsV1v8_djSV3Qg4J2VUgIAkjW9EwjhiY ; media=all */
 @media all {
   .dropdown:hover > .dropdown-menu {
     display: block;
@@ -3032,7 +3031,6 @@
     }
   }
 }
-/*! CSS Used from: https://www.nitco.in/css/formsmain.min.css?v=UaacOgqczVU2num9ylsZqpPy92vYHDollVvbzucYuuM ; media=all */
 @media all {
   .gform_wrapper textarea {
     font-family: inherit;
@@ -3157,7 +3155,6 @@
     }
   }
 }
-/*! CSS Used from: https://www.nitco.in/css/browsers.min.css?v=clx3OelYPln0TpWQ-xMP0Z_D-dIguH7ABOJHqhjIUZM ; media=all */
 @media all {
   .gform_wrapper.gf_browser_chrome ul li:after,
   .gform_wrapper.gf_browser_chrome ul li:before {
@@ -3217,31 +3214,6 @@
   }
 }
 /*! CSS Used fontfaces */
-@font-face {
-  font-family: "FontAwesome";
-  src: url("https://www.nitco.in/fonts/fontawesome-webfont.eot?v=4.7.0");
-  src: url("https://www.nitco.in/fonts/fontawesome-webfont.eot#iefix&v=4.7.0")
-      format("embedded-opentype"),
-    url("https://www.nitco.in/fonts/fontawesome-webfont.woff?v=4.7.0")
-      format("woff"),
-    url("https://www.nitco.in/fonts/fontawesome-webfont.ttf?v=4.7.0")
-      format("truetype"),
-    url("https://www.nitco.in/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular")
-      format("svg");
-  font-weight: normal;
-  font-style: normal;
-}
-@font-face {
-  font-family: "icomoon";
-  src: url("https://www.nitco.in/fonts/icomoon.eot");
-  src: url("https://www.nitco.in/fonts/icomoon.eot") format("embedded-opentype"),
-    url("https://www.nitco.in/fonts/icomoon.ttf") format("truetype"),
-    url("https://www.nitco.in/fonts/icomoon.woff") format("woff"),
-    url("https://www.nitco.in/fonts/icomoon.svg") format("svg");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
 @font-face {
   font-family: "Open Sans";
   font-style: normal;

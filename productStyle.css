@@ -528,12 +528,10 @@
       display: none !important;
     }
   }
-} */
-/*! CSS Used from: https://www.nitco.in/nitcocoremvc.styles.css?v=UdLCk4oOIvGdi8IoEqBhCDCoYXkmZaJ_scsAeBhJK8M */
+}
 .dropdown:hover > .dropdown-menu[b-zd64vl5hru] {
   display: block;
 }
-/*! CSS Used from: https://www.nitco.in/css/bootstrap.min.css?v=x2HBsxzZa2dhtxDLNVVIsGVf8FWeiX7HoG-5LcODgPk ; media=all */
 @media all {
   html {
     font-family: sans-serif;
@@ -1066,7 +1064,6 @@
     }
   }
 }
-/*! CSS Used from: https://www.nitco.in/css/swiper.min.css?v=BfJ2_2ECVilqwy_4WgCCQC92XJ4mQmFEaOE-m2QCVAg ; media=all */
 @media all {
   .swiper-container {
     margin: 0 auto;
@@ -1111,7 +1108,6 @@
     transition-property: transform, -webkit-transform;
   }
 }
-/*! CSS Used from: https://www.nitco.in/css/font-awesome.min.css?v=clpZxhVQREKe8fwc7y9k2g5HV0eZ7-Rh962oMWTS4a4 ; media=all */
 @media all {
   .fa {
     display: inline-block;
@@ -1161,7 +1157,6 @@
     content: "\f2bd";
   }
 }
-/*! CSS Used from: https://www.nitco.in/css/style.css?v=IqZQoIPsg29pgEWbDri0e5d71iyVSsCnF0SapjDI5T4 ; media=all */
 @media all {
   html {
     font-family: sans-serif;
@@ -1451,7 +1446,7 @@
     text-decoration: none;
   }
   .secondary_menu {
-    min-height: 58px;
+    min-height: 70px;
     background-color: #ffffff;
   }
   .secondary_menu .container {
@@ -2321,7 +2316,6 @@
     text-decoration: underline;
   }
 }
-/*! CSS Used from: https://www.nitco.in/css/custom.css?v=Dc0L87P-dA7zsV1v8_djSV3Qg4J2VUgIAkjW9EwjhiY ; media=all */
 @media all {
   .filterdropdown {
     display: block;
