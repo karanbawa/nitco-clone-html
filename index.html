@@ -74,7 +74,7 @@
                     <!-- Banner 1 -->
                     <div class="swiper-slide swiper-slide-active" style="width: 450px; background-color:rgba(255, 255, 255, 0.7)">
                         <div class="collection-wrapper">
-                            <h2 style="margin:20px 0px; font-weight:100; font-size:24px; line-height:30px"><strong>Tiles</strong> that add magic to the spaces you love!</h2>
+                            <h2 style="margin:20px 0px; font-weight:100; font-size:24px; line-height:30px"><strong>Export</strong> in more than 5+ countries</h2>
                             <a class="btn collection-btn" href="./tiles-collection.html" class="btn collection-btn" style="font-size:14px">Explore</a> 
                         </div>
                     </div>           
@@ -97,7 +97,7 @@
         </div>
         <div class="swiper-container swiper spaces2imageslider spaces2-image-slider swiper-container-horizontal">
             <div class="swiper-wrapper" style="transition-duration: 0ms; transform: translate3d(0px, 0px, 0px);">
-                <div class="swiper-slide swiper-slide-active" style="width: 1349px;"><a class="linkColorChange"href="tiles-collection.html"><img src="https://www.nitco.in/nitcoassets/homebanners/Web-Banner-3.jpg?v=03102022" alt="Tiles Banner"></a></div>
+                <div class="swiper-slide swiper-slide-active" style="width: 1349px;"><a class="linkColorChange"href="tiles-collection.html"><img src="./index-slider-1.png" alt="Tiles Banner"></a></div>
                 <div class="swiper-slide swiper-slide-next" style="width: 1349px;"><a class="linkColorChange"href="tiles-collection.html" ><img src="https://www.nitco.in/nitcoassets/homebanners/Web-Banner-4.jpg?v=03102022" alt="Marble Banner"></a></div>
                 <div class="swiper-slide" style="width: 1349px;"><a class="linkColorChange"href="tiles-collection.html"><img src="https://www.nitco.in/nitcoassets/homebanners/Web-Banner-5.jpg?v=03102022" alt="Mosaic Banner"></a></div>
             </div>
@@ -525,70 +525,7 @@
             nextEl: ".swiper-button-next",
             prevEl: ".swiper-button-prev",
           },
-        });
-
-        swiper.on("transitionEnd", function (e) {
-          console.log(e);
-          let element1 = document.querySelector("#a");
-          let element2 = document.querySelector("#b");
-          let element3 = document.querySelector("#c");
-          let element4 = document.querySelector("#d");
-          if (e.realIndex == 0) {
-            element1.className = "current";
-            element2.className = "next";
-            element3.className = "next";
-            element4.className = "next";
-          } else if (e.realIndex == 1) {
-            element2.className = "current";
-            element1.className = "next";
-            element3.className = "next";
-            element4.className = "next";
-          } else if (e.realIndex === 2) {
-            element3.className = "current";
-            element1.className = "next";
-            element2.className = "next";
-            element4.className = "next";
-          } else {
-            element4.className = "current";
-            element1.className = "next";
-            element2.className = "next";
-            element3.className = "next";
-          }
-        });
-
-        jQuery(".homepage-industries-section .swiper-slide").mouseenter(
-          function (event) {
-            let element1 = document.querySelector("#a");
-            let element2 = document.querySelector("#b");
-            let element3 = document.querySelector("#c");
-            let element4 = document.querySelector("#d");
-            let content1 = document.querySelector("#content1");
-            if (
-              event.target?.attributes?.id?.value === "retail1" ||
-              event.target?.attributes?.id?.value === "content1"
-            ) {
-              element1.className = "current";
-              element2.className = "next";
-              element3.className = "next";
-              element4.className = "next";
-            } else if (event.target?.attributes?.id?.value === "retail2") {
-              element2.className = "current";
-              element1.className = "next";
-              element3.className = "next";
-              element4.className = "next";
-            } else if (event.target?.attributes?.id?.value === "retail3") {
-              element3.className = "current";
-              element1.className = "next";
-              element2.className = "next";
-              element4.className = "next";
-            } else if (event.target?.attributes?.id?.value === "retail4") {
-              element4.className = "current";
-              element1.className = "next";
-              element2.className = "next";
-              element3.className = "next";
-            }
-          }
-        );
+        }); 
       });
     </script>
         
