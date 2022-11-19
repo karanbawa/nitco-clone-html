@@ -1076,6 +1076,10 @@
   .btn {
     border-radius: 0;
   }
+  .btn:hover {
+    background-color: goldenrod;
+    color: white;
+  }
   @media only screen and (max-width: 600px) {
     .desk-primary-btn-black {
       height: 45px;
@@ -1111,7 +1115,6 @@
   }
   .desk-primary-btn-white:after {
     font-family: "icomoon";
-    content: "\e930";
     padding-left: 5px;
     position: relative;
     font-size: 24px;
