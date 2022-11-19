@@ -2,16 +2,19 @@
   {
     "id": "1",
     "firstName": "John",
-    "lastName": "Doe"
+    "lastName": "Doe",
+    "src": "https://www.nitco.in/nitcomedia/tiles/scale/thumb/TLI203SPI0101.jpg"
   },
   {
     "id": "2",
     "firstName": "Mary",
-    "lastName": "Peterson"
+    "lastName": "Peterson",
+    "src": "https://www.nitco.in/nitcomedia/tiles/scale/thumb/TLI203SPI0101.jpg"
   },
   {
     "id": "3",
     "firstName": "George",
-    "lastName": "Hansen"
+    "lastName": "Hansen",
+    "src": "https://www.nitco.in/nitcomedia/tiles/scale/thumb/TLI203SPI0101.jpg"
   }
 ]
