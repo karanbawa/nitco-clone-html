@@ -25,6 +25,7 @@ function appendData(data) {
     htmlText += `<div class="clearfix"></div>`;
     htmlText += `<h2 class="woocommerce-loop-product__title">Concrete Abstracts Azul</h2>`;
     htmlText += `<div class="tile-list-text"><p>Glazed Vitrified Tiles,1200 x 2500 mm</p></div></li>`;
-    mainContainer.appendChild(htmlText);
+    // mainContainer.appendChild(htmlText);
+    mainContainer.innerHTML = htmlText;
   }
 }
