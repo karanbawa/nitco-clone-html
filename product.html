@@ -201,737 +201,178 @@
     <img class="resources-header" src="./product-hero.png" />
 
     <div class="clearfix"></div>
+    <div class="container">
+      <div class="tile-filter" style="padding-top: 10px; margin-bottom: 10px">
+        <div class="row">
+          <div class="col-md-2">
+            <li
+              class="filterdropdown dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-111"
+            >
+              <a href="#">Application</a> <span class="caret"></span>
+              <ul class="filterdropdown-menu dropdown-menu" id="listapp">
+                <li>
+                  <div class="aweCheckbox aweCheckbox-danger">
+                    <label class="filter-label">
+                      <input
+                        type="checkbox"
+                        value="floor"
+                        name="chkapplication1"
+                        id="chkapplication1"
+                        onclick="bind_search();"
+                        checked=""
+                      />
+                      <span class="checkmark"></span>
+                      <span
+                        class="filter-text text-capitalize"
+                        id="chkapplicationtext1"
+                        >floor</span
+                      >
+                    </label>
+                  </div>
+                </li>
+                <input
+                  type="hidden"
+                  id="hndApplicationcnt"
+                  name="hndApplicationcnt"
+                  value="1"
+                />
+              </ul>
+            </li>
+          </div>
+          <div class="col-md-2">
+            <li
+              class="filterdropdown dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-111"
+            >
+              <a href="#">Size</a> <span class="caret"></span>
+              <ul class="filterdropdown-menu dropdown-menu" id="listsize">
+                <li>
+                  <div class="aweCheckbox aweCheckbox-danger">
+                    <label class="filter-label">
+                      <input
+                        type="checkbox"
+                        value="304.80x304.80 mm"
+                        name="chksize1"
+                        id="chksize1"
+                        onclick="bind_search();"
+                      />
+                      <span class="checkmark"></span>
+                      <span class="filter-text" id="chksizetext1"
+                        >304.80X304.80 mm</span
+                      >
+                    </label>
+                  </div>
+                </li>
+                <input
+                  type="hidden"
+                  id="hndSizecnt"
+                  name="hndSizecnt"
+                  value="1"
+                />
+              </ul>
+            </li>
+          </div>
+          <div class="col-md-2">
+            <li
+              class="filterdropdown dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-111"
+            >
+              <a href="#">Category</a> <span class="caret"></span>
+              <ul class="filterdropdown-menu dropdown-menu" id="listcategory">
+                <li>
+                  <div class="aweCheckbox aweCheckbox-danger">
+                    <label class="filter-label">
+                      <input
+                        type="checkbox"
+                        value="inlay"
+                        name="chkcategory1"
+                        id="chkcategory1"
+                        onclick="bind_search();"
+                      />
+                      <span class="checkmark"></span>
+                      <span class="filter-text" id="chkcategorytext1"
+                        >Inlay</span
+                      >
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="aweCheckbox aweCheckbox-danger">
+                    <label class="filter-label">
+                      <input
+                        type="checkbox"
+                        value="mosaico"
+                        name="chkcategory2"
+                        id="chkcategory2"
+                        onclick="bind_search();"
+                      />
+                      <span class="checkmark"></span>
+                      <span class="filter-text" id="chkcategorytext2"
+                        >Mosaico</span
+                      >
+                    </label>
+                  </div>
+                </li>
+                <input
+                  type="hidden"
+                  id="hndCategorycnt"
+                  name="hndCategorycnt"
+                  value="2"
+                />
+              </ul>
+            </li>
+          </div>
+          <div class="col-md-2">
+            <li
+              class="filterdropdown dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-111"
+            >
+              <a href="#">Finish</a> <span class="caret"></span>
+              <ul class="filterdropdown-menu dropdown-menu" id="listfinish">
+                <li>
+                  <div class="aweCheckbox aweCheckbox-danger">
+                    <label class="filter-label">
+                      <input
+                        type="checkbox"
+                        value="glossy"
+                        name="chkfinish1"
+                        id="chkfinish1"
+                        onclick="bind_search();"
+                      />
+                      <span class="checkmark"></span>
+                      <span class="filter-text" id="chkfinishtext1"
+                        >Glossy</span
+                      >
+                    </label>
+                  </div>
+                </li>
+                <li>
+                  <div class="aweCheckbox aweCheckbox-danger">
+                    <label class="filter-label">
+                      <input
+                        type="checkbox"
+                        value="matte"
+                        name="chkfinish2"
+                        id="chkfinish2"
+                        onclick="bind_search();"
+                      />
+                      <span class="checkmark"></span>
+                      <span class="filter-text" id="chkfinishtext2">Matte</span>
+                    </label>
+                  </div>
+                </li>
+                <input
+                  type="hidden"
+                  id="hndFinishcnt"
+                  name="hndFinishcnt"
+                  value="2"
+                />
+              </ul>
+            </li>
+          </div>
+        </div>
+      </div>
+    </div>
     <div id="primary" class="content-area container">
       <main id="main" class="site-main" role="main">
         <div class="product-shop-listing" style="margin-top: 5px">
-          <!-- <div
-            class="tile-filter"
-            style="padding-top: 10px; margin-bottom: 10px"
-          >
-            <div class="row">
-              <div class="col-md-2">
-                <li
-                  class="filterdropdown dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-111"
-                >
-                  <a href="#">Size</a> <span class="caret"></span>
-                  <ul class="filterdropdown-menu dropdown-menu" id="listsize">
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="800x1600"
-                            name="chksize1"
-                            id="chksize1"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext1"
-                            >800X1600 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="800x800"
-                            name="chksize2"
-                            id="chksize2"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext2"
-                            >800X800 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="600x1200"
-                            name="chksize3"
-                            id="chksize3"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext3"
-                            >600X1200 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="600x600"
-                            name="chksize4"
-                            id="chksize4"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext4"
-                            >600X600 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="600x148"
-                            name="chksize5"
-                            id="chksize5"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext5"
-                            >600X148 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="597x1197"
-                            name="chksize6"
-                            id="chksize6"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext6"
-                            >597X1197 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="597x597"
-                            name="chksize7"
-                            id="chksize7"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext7"
-                            >597X597 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="597x297"
-                            name="chksize8"
-                            id="chksize8"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext8"
-                            >597X297 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="300x600"
-                            name="chksize9"
-                            id="chksize9"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext9"
-                            >300X600 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="200x1200"
-                            name="chksize10"
-                            id="chksize10"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext10"
-                            >200X1200 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="1200 x 2500"
-                            name="chksize11"
-                            id="chksize11"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chksizetext11"
-                            >1200 X 2500 mm</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <input
-                      type="hidden"
-                      id="hndSizecnt"
-                      name="hndSizecnt"
-                      value="11"
-                    />
-                  </ul>
-                </li>
-              </div>
-              <div class="col-md-2">
-                <li
-                  class="filterdropdown dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-111"
-                >
-                  <a href="#">Finish</a> <span class="caret"></span>
-                  <ul class="filterdropdown-menu dropdown-menu" id="listfinish">
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="glossy"
-                            name="chkfinish1"
-                            id="chkfinish1"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkfinishtext1"
-                            >Glossy</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="lapato"
-                            name="chkfinish2"
-                            id="chkfinish2"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkfinishtext2"
-                            >Lapato</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="matte"
-                            name="chkfinish3"
-                            id="chkfinish3"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkfinishtext3"
-                            >Matte</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="rustic"
-                            name="chkfinish4"
-                            id="chkfinish4"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkfinishtext4"
-                            >Rustic</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <input
-                      type="hidden"
-                      id="hndFinishcnt"
-                      name="hndFinishcnt"
-                      value="4"
-                    />
-                  </ul>
-                </li>
-              </div>
-              <div class="col-md-2">
-                <li
-                  class="filterdropdown dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-111"
-                >
-                  <a href="#">Look Like</a> <span class="caret"></span>
-                  <ul class="filterdropdown-menu dropdown-menu" id="listdesign">
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="marble"
-                            name="chkdesign1"
-                            id="chkdesign1"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkdesigntext1"
-                            >Marble</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="modern"
-                            name="chkdesign2"
-                            id="chkdesign2"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkdesigntext2"
-                            >Modern</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="natural"
-                            name="chkdesign3"
-                            id="chkdesign3"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkdesigntext3"
-                            >Natural</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="stone"
-                            name="chkdesign4"
-                            id="chkdesign4"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkdesigntext4"
-                            >Stone</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="wood"
-                            name="chkdesign5"
-                            id="chkdesign5"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkdesigntext5"
-                            >Wood</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <input
-                      type="hidden"
-                      id="hndDesigncnt"
-                      name="hndDesigncnt"
-                      value="5"
-                    />
-                  </ul>
-                </li>
-              </div>
-              <div class="col-md-2">
-                <li
-                  class="filterdropdown dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-111"
-                >
-                  <a href="#">Colour</a> <span class="caret"></span>
-                  <ul class="filterdropdown-menu dropdown-menu" id="listcolor">
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="white"
-                            name="chkcolor1"
-                            id="chkcolor1"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext1"
-                            >White</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="cream"
-                            name="chkcolor2"
-                            id="chkcolor2"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext2"
-                            >Cream</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="ivory"
-                            name="chkcolor3"
-                            id="chkcolor3"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext3"
-                            >Ivory</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="beige"
-                            name="chkcolor4"
-                            id="chkcolor4"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext4"
-                            >Beige</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="blue"
-                            name="chkcolor5"
-                            id="chkcolor5"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext5"
-                            >Blue</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="grey"
-                            name="chkcolor6"
-                            id="chkcolor6"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext6"
-                            >Grey</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="black"
-                            name="chkcolor7"
-                            id="chkcolor7"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext7"
-                            >Black</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="brown"
-                            name="chkcolor8"
-                            id="chkcolor8"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext8"
-                            >Brown</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="orange"
-                            name="chkcolor9"
-                            id="chkcolor9"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext9"
-                            >Orange</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="red"
-                            name="chkcolor10"
-                            id="chkcolor10"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext10"
-                            >Red</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="yellow"
-                            name="chkcolor11"
-                            id="chkcolor11"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkcolortext11"
-                            >Yellow</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <input
-                      type="hidden"
-                      id="hndColorcnt"
-                      name="hndColorcnt"
-                      value="11"
-                    />
-                  </ul>
-                </li>
-              </div>
-              <div class="col-md-2">
-                <li
-                  class="filterdropdown dropdown menu-item menu-item-type-custom menu-item-object-custom menu-item-111"
-                >
-                  <a href="#">Properties</a> <span class="caret"></span>
-                  <ul class="filterdropdown-menu dropdown-menu" id="listprop">
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="anti-bacterial"
-                            name="chkproperties1"
-                            id="chkproperties1"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkproptext1"
-                            >Anti Bacterial</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="anti-skid"
-                            name="chkproperties2"
-                            id="chkproperties2"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkproptext2"
-                            >Anti Skid</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="chemical-resistance"
-                            name="chkproperties3"
-                            id="chkproperties3"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkproptext3"
-                            >Chemical Resistance</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="highly-durable"
-                            name="chkproperties4"
-                            id="chkproperties4"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkproptext4"
-                            >Highly Durable</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="joint-free"
-                            name="chkproperties5"
-                            id="chkproperties5"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkproptext5"
-                            >Joint Free</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="scratch-resistance"
-                            name="chkproperties6"
-                            id="chkproperties6"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkproptext6"
-                            >Scratch Resistance</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <li>
-                      <div class="aweCheckbox aweCheckbox-danger">
-                        <label class="filter-label">
-                          <input
-                            type="checkbox"
-                            value="stain-resistance"
-                            name="chkproperties7"
-                            id="chkproperties7"
-                            onclick="bind_search();"
-                          />
-                          <span class="checkmark"></span>
-                          <span class="filter-text" id="chkproptext7"
-                            >Stain Resistance</span
-                          >
-                        </label>
-                      </div>
-                    </li>
-                    <input
-                      type="hidden"
-                      id="hndPropcnt"
-                      name="hndPropcnt"
-                      value="7"
-                    />
-                  </ul>
-                </li>
-              </div>
-            </div>
-          </div> -->
           <div class="clearfix"></div>
 
           <ul class="products columns-4">
@@ -939,62 +380,7 @@
               id="prodlist"
               style="margin-top: 10px; margin-bottom: 15px; width: 100%"
             >
-              <div id="myData"></div>
-
-              <li
-                class="post-422 product type-product status-publish has-post-thumbnail product_cat-tile first instock shipping-taxable purchasable product-type-simple"
-              >
-                <a
-                  rel="canonical"
-                  href="/product-details/glazed-vitrified-tiles/concrete-abstracts-azul/nttli203spi0101"
-                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                >
-                  <div style="background-color: white; border: 1px solid #fff">
-                    <div class="image-inner">
-                      <img
-                        src="https://www.nitco.in/nitcomedia/tiles/scale/thumb/TLI203SPI0101.jpg"
-                        class="tile_image wp-post-image"
-                        alt="Concrete Abstracts AzulGlazed Vitrified Tiles"
-                      />
-                    </div>
-                    <div class="nt-ribbon">NEW</div>
-                    <div class="clearfix"></div>
-                  </div>
-                </a>
-                <div class="clearfix"></div>
-                <h2 class="woocommerce-loop-product__title">
-                  Concrete Abstracts Azul
-                </h2>
-                <div class="tile-list-text">
-                  <p>Glazed Vitrified Tiles,1200 x 2500 mm</p>
-                </div>
-              </li>
-              <li
-                class="post-422 product type-product status-publish has-post-thumbnail product_cat-tile first instock shipping-taxable purchasable product-type-simple"
-              >
-                <a
-                  rel="canonical"
-                  href="/product-details/glazed-vitrified-tiles/moda-blue/nttli203spd0101"
-                  class="woocommerce-LoopProduct-link woocommerce-loop-product__link"
-                >
-                  <div style="background-color: white; border: 1px solid #fff">
-                    <div class="image-inner">
-                      <img
-                        src="https://www.nitco.in/nitcomedia/tiles/scale/thumb/TLI203SPD0101.jpg"
-                        class="tile_image wp-post-image"
-                        alt="Moda BlueGlazed Vitrified Tiles"
-                      />
-                    </div>
-                    <div class="nt-ribbon">NEW</div>
-                    <div class="clearfix"></div>
-                  </div>
-                </a>
-                <div class="clearfix"></div>
-                <h2 class="woocommerce-loop-product__title">Moda Blue</h2>
-                <div class="tile-list-text">
-                  <p>Glazed Vitrified Tiles,1200 x 2500 mm</p>
-                </div>
-              </li>
+              <div id="myData" style="display: flex; flex-wrap: wrap"></div>
             </div>
           </ul>
         </div>
@@ -1038,7 +424,7 @@
           </div>
         </div>
       </div>
-      <div class="back-to-top-wrapper">
+      <div class="back-to-top-wrapper" id="backToTop">
         <a href="" style="color: white">BACK TO TOP</a>
       </div>
       <div class="col-md-8 footer-col-wrapper">
@@ -1102,6 +488,7 @@
       /></a>
     </div>
 
+    <script src="scrollToTop.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="products.js"></script>
     <script src="sidenav.js"></script>

@@ -1395,6 +1395,11 @@
   .secondary_menu .header-menu .searchbox .search_i {
     border: none;
   }
+  @media screen and (max-width: 767px) {
+    .swiper-phone-hide {
+      display: none;
+    }
+  }
   .swiper-container {
     width: 100%;
   }
