@@ -14,7 +14,7 @@ appendData([
     productName: "ANTIQUE BEIGE",
     productDimensions: "800 x 1600 mm",
     productType: "High Glossy Tiles",
-    src: "./productImages/800x1600/ANTIQUE-BEIGE.png",
+    src: "./productImages/800x1600/ANTIQUE-BEIGE.jpg",
     alt: "ANTIQUE BEIGE",
   },
   {
