@@ -322,6 +322,7 @@ appendData([
     alt: "VERSACHE GOLD",
   },
 ]);
+
 function appendData(data) {
   var mainContainer = document.getElementById("myData");
   for (var i = 0; i < data.length; i++) {
@@ -330,8 +331,8 @@ function appendData(data) {
     div.className = `post-422 product type-product status-publish has-post-thumbnail product_cat-tile first instock shipping-taxable purchasable product-type-simple`;
     div.innerHTML += `<a rel="canonical" class="woocommerce-LoopProduct-link woocommerce-loop-product__link"`;
     div.innerHTML += `<div style="background-color: white; border: 1px solid #fff">`;
-    div.innerHTML += `<div class="image-inner">`;
-    div.innerHTML += `<img src="${data[i].src}" class="tile_image wp-post-image" alt="${data[i].alt}"/>`;
+    div.innerHTML += `<div class="image-inner"`;
+    div.innerHTML += `<img class="lightbox" src="${data[i].src}" style="cursor: pointer; class="tile_image wp-post-image" alt="${data[i].alt}"/>`;
     div.innerHTML += `</div>`;
     // div.innerHTML += `<div class="nt-ribbon">NEW</div>`;
     div.innerHTML += `<div class="clearfix"></div></div></a>`;
@@ -341,3 +342,32 @@ function appendData(data) {
     mainContainer.appendChild(div);
   }
 }
+
+const lightBox = document.querySelector(".lightbox");
+
+function displayDialog(data) {
+  var mainContainer = document.getElementById("lightbox-target-1");
+  console.log("data", data);
+  // var div = document.createElement("img");
+  mainContainer.innerHTML = `<img src="${data.srcElement.currentSrc}" style="height: 50%; width: 50%;" />
+  <a class="lightbox-close"></a>`;
+  console.log("data", mainContainer);
+  // mainContainer.add(div);
+}
+
+function openDialog(e) {
+  console.log("e", e);
+  e.preventDefault();
+  if (lightboxTarget.classList.contains("open")) {
+    lightboxTarget.classList.remove("open");
+  } else {
+    displayDialog(e);
+    lightboxTarget.classList.add("open");
+  }
+}
+
+const lightboxTarget = document.querySelector(".lightbox-target");
+const lightboxClose = document.querySelector(".lightbox-close");
+
+lightBox.addEventListener("click", openDialog);
+lightboxClose.addEventListener("click", openDialog);
