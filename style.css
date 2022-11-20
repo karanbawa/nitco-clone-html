@@ -1400,6 +1400,16 @@
       display: none;
     }
   }
+  @media screen and (max-width: 767px) {
+    .hero-image-height-phone {
+      height: 200px;
+    }
+  }
+  @media screen and (min-width: 767px) {
+    .break-line-desktop-hide {
+      display: none;
+    }
+  }
   .swiper-container {
     width: 100%;
   }
@@ -2628,7 +2638,7 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
-    height: 560px;
+    height: 454px;
     position: relative;
   }
   @media screen and (max-width: 1024px) {
@@ -2665,7 +2675,7 @@
   }
   @media screen and (max-width: 767px) {
     .spaces2-banner .banner-image {
-      height: 150px;
+      height: 200px;
     }
   }
   .spaces2-banner .banner-image .spaces2-text-slider {
