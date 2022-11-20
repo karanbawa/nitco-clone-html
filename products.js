@@ -337,7 +337,7 @@ function appendData(data) {
     div.innerHTML += `<div class="clearfix"></div></div></a>`;
     div.innerHTML += `<div class="clearfix"></div>`;
     div.innerHTML += `<h2 class="woocommerce-loop-product__title">${data[i].productName}</h2>`;
-    div.innerHTML += `<div class="tile-list-text"><p>${data[i].productDimensions}, ${data[i].productType}</p></div></li>`;
+    div.innerHTML += `<div class="tile-list-text"><p><span style="font-weight: 500;">${data[i].productDimensions}</span>, ${data[i].productType}, 9mm</p></div></li>`;
     mainContainer.appendChild(div);
   }
 }
