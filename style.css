@@ -1078,6 +1078,7 @@
   }
   .btn:hover {
     background-color: goldenrod;
+    border-color: white;
     color: white;
   }
   @media only screen and (max-width: 600px) {
@@ -1111,7 +1112,8 @@
     display: block;
   }
   .desk-primary-btn-white:hover {
-    border-color: rgba(0, 0, 0, 0.76);
+    /* border-color: rgba(0, 0, 0, 0.76); */
+    border-color: white;
   }
   .desk-primary-btn-white:after {
     font-family: "icomoon";
