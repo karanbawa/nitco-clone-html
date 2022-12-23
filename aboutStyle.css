@@ -1,0 +1,158 @@
+.aboutContainer {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  justify-content: start;
+  /* align-items: center; */
+  gap: 30px;
+  margin: 0 30px;
+  flex-wrap: wrap;
+}
+
+@media (min-width: 768px) {
+  .aboutContainer {
+    width: 750px;
+  }
+}
+@media (min-width: 992px) {
+  .aboutContainer {
+    width: 970px;
+  }
+}
+@media (min-width: 1230px) {
+  .aboutContainer {
+    width: 1200px;
+  }
+}
+@media (min-width: 1440px) {
+  .aboutContainer {
+    width: 1410px;
+  }
+}
+
+/* .aboutContainer:before,
+.aboutContainer:after {
+  content: " ";
+  display: table;
+} */
+
+.imageBorder {
+  height: 250px;
+  width: 200px;
+  background: transparent;
+  border-radius: 10px;
+  transition: border 1s;
+  position: relative;
+}
+.imageBorder:hover {
+  border: 1px solid #fff;
+}
+.card {
+  height: 260px;
+  width: 210px;
+  background: #808080;
+  border-radius: 10px;
+  transition: background 0.8s;
+  overflow: hidden;
+  background: #000;
+  box-shadow: 0 70px 63px -60px #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.card0 {
+  background: url("./aboutImages/ashouk.jpeg") center center no-repeat;
+  background-size: cover;
+}
+.card0:hover {
+  background: url("./aboutImages/ashouk.jpeg") left center no-repeat;
+  background-size: 400px;
+}
+.card0:hover h2 {
+  opacity: 1;
+}
+.card0:hover .visibility {
+  opacity: 1;
+}
+.card1 {
+  background: url("./aboutImages/aditya.jpeg") center center no-repeat;
+  background-size: cover;
+}
+.card1:hover {
+  background: url("./aboutImages/aditya.jpeg") left center no-repeat;
+  background-size: 400px;
+}
+.card1:hover h2 {
+  opacity: 1;
+}
+.card1:hover .visibility {
+  opacity: 1;
+}
+.card2 {
+  background: url("./aboutImages/atulit.jpeg") center center no-repeat;
+  background-size: cover;
+}
+.card2:hover {
+  background: url("./aboutImages/atulit.jpeg") left center no-repeat;
+  background-size: 400px;
+}
+.card2:hover h2 {
+  opacity: 1;
+}
+.card2:hover .visibility {
+  opacity: 1;
+}
+.card3 {
+  background: url("./aboutImages/harshit.jpeg") center center no-repeat;
+  background-size: cover;
+}
+.card3:hover {
+  background: url("./aboutImages/harshit.jpeg") left center no-repeat;
+  background-size: 400px;
+}
+.card3:hover h2 {
+  opacity: 1;
+}
+.card3:hover .visibility {
+  opacity: 1;
+}
+.card4 {
+  background: url("./aboutImages/rahul.jpeg") center center no-repeat;
+  background-size: cover;
+}
+.card4:hover {
+  background: url("./aboutImages/rahul.jpeg") left center no-repeat;
+  background-size: 400px;
+}
+.card4:hover h2 {
+  opacity: 1;
+}
+.card4:hover .visibility {
+  opacity: 1;
+}
+h2 {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #fff;
+  margin: 20px;
+  opacity: 0;
+  transition: opacity 1s;
+}
+.visibility {
+  opacity: 0;
+  transition: opacity 1s;
+}
+.icons {
+  position: absolute;
+  fill: #fff;
+  color: #fff;
+  height: 130px;
+  top: 116px;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
