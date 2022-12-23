@@ -11,6 +11,10 @@
   flex-wrap: wrap;
 }
 
+.marginBottom {
+  margin-bottom: 50px;
+}
+
 @media (min-width: 768px) {
   .aboutContainer {
     width: 750px;
