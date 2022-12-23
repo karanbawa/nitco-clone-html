@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lan="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Zebboi: Products</title>
+    <link rel="icon" href="zebboi-tabIcon.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="productStyle.css" />
+    <meta
+      name="description"
+      content="Shop for Glazed Vitrified Tiles at best price from Zebboi. Choose from a wide range of tiles available in various at Zebboi. Click here to know more."
+    />
+    <meta
+      name="keywords"
+      content="glazed vitrified tiles, Zebboi, zebboi tiles, tiles india, buy tiles in india, buy tiles, tiles buy in india, tiles design, tiles company, types of tiles, floor tiles, wall tiles, kitchen tiles, bedroom tiles, bathroom tiles, livingroom tiles, outdoor tiles, commecial tiles, glazed vitrified tiles, vitrified tiles, double charged tiles, ceramic tiles, ceramic floor tiles, ceramic wall tiles, best quality tiles, designer tiles, imported tiles"
+    />
+    <meta
+      property="og:title"
+      content="Buy Glazed Vitrified Tiles in India - Zebboi Tiles &amp; Marble"
+    />
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
+  </head>
+  <body>
+    <div class="primary-navbar">
+      <div class="container container-nt">
+        <div class="col-md-9 pull-right" style="padding-right: 0px">
+          <ul class="top-menu-right">
+            <li>
+              <span class="header-design"
+                ><a>
+                  <i class="fa fa-phone"></i>
+                  <span>Call Us +91 9811335805</span></a
+                ></span
+              >
+            </li>
+            <li><a>harshit.khaitan@gmail.com</a></li>
+            <li style="font-size: 14px; line-height: 14px">
+              <span class="social"
+                ><a
+                  href="https://www.facebook.com/profile.php?id=100086343770966"
+                  target="_blank"
+                  ><i class="fa fa-facebook-official"></i></a
+              ></span>
+              <span class="social"
+                ><a
+                  href="https://www.instagram.com/zebboiceramic/"
+                  target="_blank"
+                  ><i class="fa fa-instagram"></i></a
+              ></span>
+              <span class="social"
+                ><a
+                  class="linkColorChange"
+                  href="https://api.whatsapp.com/send?phone=919811335805"
+                  target="_blank"
+                  ><i class="fa fa-whatsapp"></i></a
+              ></span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="secondary_menu">
+      <div class="container container-nt" style="margin-top: 4px">
+        <div class="row header-menu">
+          <div class="logo columns">
+            <div class="logo_img">
+              <a href="./"><img src="zebboi_logo_1.png" alt="Zebboi" /></a>
+            </div>
+          </div>
+          <div class="header-list">
+            <ul>
+              <li>
+                <span class="header-design"
+                  ><a href="./" target="_self">
+                    <i class="fa fa-globe"></i> <span>Home</span></a
+                  ></span
+                >
+              </li>
+              <li>
+                <span class="header-design"
+                  ><a href="./aboutus" target="_self">
+                    <i class="fa fa-map-marker" style="color: #ea1111"></i>
+                    <span>About</span>
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span class="header-design"
+                  ><a href="./product" target="_self" target="_blank">
+                    <i class="fa fa-street-view"></i> <span>Products</span>
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span class="header-design"
+                  ><a
+                    class="linkColorChange"
+                    href="./catalogue"
+                    target="_self"
+                    target="_blank"
+                  >
+                    <i class="fa fa-regular fa-book"></i> <span>Catalogue</span>
+                  </a>
+                </span>
+              </li>
+              <li>
+                <span class="header-design">
+                  <a href="./contactus">
+                    <i class="fa fa-user-circle"></i> <span>Contact Us</span>
+                  </a>
+                </span>
+              </li>
+            </ul>
+          </div>
+          <span class="humb_menu" style="margin-right: 10px">
+            <div class="menu">
+              <span class="menu1"></span> <span class="menu2"></span>
+              <span class=""></span>
+            </div>
+          </span>
+          <div class="clearfix"></div>
+          <div
+            b-zd64vl5hru=""
+            id="menudiv"
+            class="secondary-header nitco-menu-list"
+          >
+            <nav b-zd64vl5hru="">
+              <div b-zd64vl5hru="" class="menu-secondary-menu-container">
+                <ul
+                  b-zd64vl5hru=""
+                  id="Secondary-menu"
+                  class="menu-list mainmenu"
+                >
+                  <li
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119"
+                  >
+                    <a
+                      b-zd64vl5hru=""
+                      href="./"
+                      target="_blank"
+                      onclick="dataLayer.push({'event' : 'event dl top nav click','eventCategory' : 'top nav','eventAction' : 'menu click','eventLabel' : 'visualiser'});"
+                      >Home</a
+                    >
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119"
+                  >
+                    <a
+                      b-zd64vl5hru=""
+                      href="./aboutus"
+                      target="_blank"
+                      onclick="dataLayer.push({'event' : 'event dl top nav click','eventCategory' : 'top nav','eventAction' : 'menu click','eventLabel' : 'visualiser'});"
+                      >About</a
+                    >
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119"
+                  >
+                    <a
+                      b-zd64vl5hru=""
+                      href="./product"
+                      target="_blank"
+                      onclick="dataLayer.push({'event' : 'event dl top nav click','eventCategory' : 'top nav','eventAction' : 'menu click','eventLabel' : 'visualiser'});"
+                      >Product</a
+                    >
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119"
+                  >
+                    <a
+                      b-zd64vl5hru=""
+                      href="./catalogue"
+                      target="_blank"
+                      onclick="dataLayer.push({'event' : 'event dl top nav click','eventCategory' : 'top nav','eventAction' : 'menu click','eventLabel' : 'visualiser'});"
+                      >Catalogue</a
+                    >
+                  </li>
+                  <li
+                    class="menu-item menu-item-type-custom menu-item-object-custom menu-item-119"
+                  >
+                    <a
+                      b-zd64vl5hru=""
+                      href="./contactus"
+                      target="_blank"
+                      onclick="dataLayer.push({'event' : 'event dl top nav click','eventCategory' : 'top nav','eventAction' : 'menu click','eventLabel' : 'visualiser'});"
+                      >Contact Us</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="clearfix"></div>
+
+    <img class="resources-header" src="./product-hero.png" />
+
+    <div class="clearfix"></div>
+    <div id="primary" class="content-area container">
+      <main id="main" class="site-main" role="main">
+        <div class="product-shop-listing" style="margin-top: 5px">
+          <div class="clearfix"></div>
+
+          <ul class="products columns-4">
+            <div
+              id="prodlist"
+              style="margin-top: 10px; margin-bottom: 15px; width: 100%"
+            >
+              <div id="myData" style="display: flex; flex-wrap: wrap"></div>
+            </div>
+          </ul>
+        </div>
+      </main>
+    </div>
+    <div class="clearfix"></div>
+    <footer id="footer" class="footer-section">
+      <div class="above-footer">
+        <div class="overlay" style="background: rgba(49, 48, 48, 0.6)">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-4 col-md-offset-2">
+                <span class="above-footcol1">Get The Catalogue</span>
+              </div>
+              <div class="col-md-6">
+                <div class="above-footcol2">
+                  Trends &amp; inspiration delivered straight to your inbox
+                </div>
+                <div class="input-group">
+                  <input
+                    type="email"
+                    class="form-control footer-input"
+                    id="txtInboxInspi"
+                    name="txtInboxInspi"
+                    required="required"
+                    placeholder="Enter your email"
+                  />
+                  <div class="input-group-btn">
+                    <a
+                      class="btn btn-dark"
+                      style="color: #fff"
+                      href="javascript:void(0);"
+                      onclick="javascript:InspirationInbox();"
+                      >Sign Up</a
+                    >
+                  </div>
+                </div>
+                <div id="DivInboxMsg"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="back-to-top-wrapper" id="backToTop">
+        <a class="linkColorChange" href="" style="color: white">BACK TO TOP</a>
+      </div>
+      <div class="col-md-8 footer-col-wrapper">
+        <div class="row footerAlign">
+          <div class="columns" style="width: 14rem">
+            <div class="logo_img">
+              <a class="linkColorChange" href="./"
+                ><img src="zebboi_logo_1.png" alt="Zebboi"
+              /></a>
+            </div>
+          </div>
+          <div class="col-sm-3 footer-wiget col-xs-12">
+            <div class="footer-social-wrapper">
+              <span>we are on:</span>
+              <ul class="footer-wiget-content">
+                <li style="font-size: 20px; line-height: 14px">
+                  <span class="social">
+                    <a
+                      href="https://www.facebook.com/profile.php?id=100086343770966"
+                      onclick="dataLayer.push({'event' : 'event dl top nav click','eventCategory' : 'top nav','eventAction' : 'menu click','eventLabel' : 'facebook'});"
+                      target="_blank"
+                    >
+                      <i class="fa fa-facebook-official"></i>
+                    </a>
+                  </span>
+                  <span class="social">
+                    <a
+                      href="https://www.instagram.com/zebboiceramic/"
+                      onclick="dataLayer.push({'event' : 'event dl top nav click','eventCategory' : 'top nav','eventAction' : 'menu click','eventLabel' : 'instagram'});"
+                      target="_blank"
+                    >
+                      <i class="fa fa-instagram"></i>
+                    </a>
+                  </span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright_sec" style="margin-bottom: 50px">
+        <span>© 2022 Zebboi • All Rights Reserved</span>
+        <span> Developed by <a href="/" target="_blank">Perspective</a></span>
+      </div>
+    </footer>
+
+    <div class="w-scrollit-badge-name">
+      <div class="eiGYSu">
+        <a
+          class="dxiAcZ"
+          href="https://api.whatsapp.com/send?phone=919811335805"
+          target="_blank"
+          ><div class="fXBuHm">Hello, how can we help you?</div></a
+        >
+      </div>
+      <a
+        class="w-scrollit-badge"
+        href="https://api.whatsapp.com/send?phone=919811335805"
+        target="_blank"
+        ><img src="whatsapp.png" alt=""
+      /></a>
+    </div>
+
+    <div class="lightbox-target" id="lightbox-target-1">
+      <div class="lightRoomAdded"></div>
+      <a style="cursor: pointer" class="lightbox-close"></a>
+      <!-- <img src="https://via.placeholder.com/150" /> -->
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="products.js"></script>
+    <script src="sidenav.js"></script>
+    <script src="scrollToTop.js"></script>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-7NWK6BWJJK"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "G-7NWK6BWJJK");
+    </script>
+    <!-- End Google Tag Manager (noscript) -->
+  </body>
+</html>
