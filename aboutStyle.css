@@ -5,8 +5,9 @@
   padding-right: 15px;
   display: flex;
   /* justify-content: start; */
-  justify-content: space-between;
   /* align-items: center; */
+  justify-content: center;
+  text-align: center;
   gap: 30px;
   flex-wrap: wrap;
 }
@@ -18,21 +19,25 @@
 @media (min-width: 768px) {
   .aboutContainer {
     width: 750px;
+    justify-content: space-between;
   }
 }
 @media (min-width: 992px) {
   .aboutContainer {
     width: 970px;
+    justify-content: space-between;
   }
 }
 @media (min-width: 1230px) {
   .aboutContainer {
     width: 1200px;
+    justify-content: space-between;
   }
 }
 @media (min-width: 1440px) {
   .aboutContainer {
     width: 1410px;
+    justify-content: space-between;
   }
 }
 
